@@ -1,0 +1,55 @@
+languageCode: "en-us"
+title: "Where are the Gang-gangs?"
+theme: "microsite-template"
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+services:
+  # https://gohugo.io/templates/embedded/#configuration-google-analytics
+  # googleAnalytics:
+  #   id: G-MEASUREMENT_ID
+menus:
+  # main:
+  #   - name: Credits
+  #     pageRef: https://ecosounds.org/about/credits
+  #     weight: 10
+params:
+  apiHost: https://api.ecosounds.org
+  workbenchHost: https://www.ecosounds.org
+  heroImage: images/ganggang-hero.jpg
+  campaigns:
+    - name: "Gang-Gang"
+      filters:
+        filter:
+          and:
+            - tags.id:
+                in:
+                  - 2930
+            - projects.id:
+                eq: 1279
+  tasks:
+    verification: true # default: true
+
+
+  style:
+    roundedButtons: true
+    # Theme colors are defined using "hsl" (hue, saturation, lightness).
+    # To create your own hsl theme color, you can use the following website.
+    # https://colorpicker.dev/#d1363a
+    themeColor:
+      hue: 358deg
+      saturation: 62.8%
+      lightness: 51.8%
+    themeShades:
+      "50": hsl(from hsl(358, 62.8%, 51.8%) h s calc(l - 0.72))
+      "100": hsl(from hsl(358, 62.8%, 51.8%) h s calc(l - 0.61))
+      "200": hsl(from hsl(358, 62.8%, 51.8%) h s calc(l - 0.5))
+      "300": hsl(from hsl(358, 62.8%, 51.8%) h s calc(l - 0.39))
+      "400": hsl(from hsl(358, 62.8%, 51.8%) h s calc(l - 0.26))
+      "500": hsl(from hsl(358, 62.8%, 51.8%) h s calc(l - 0.11999999999999997))
+      "600": hsl(from hsl(358, 62.8%, 51.8%) h s calc(l - 0))
+      "700": hsl(from hsl(358, 62.8%, 51.8%) h s calc(l - -0.08000000000000002))
+      "800": hsl(from hsl(358, 62.8%, 51.8%) h s calc(l - -0.13))
+      "900": hsl(from hsl(358, 62.8%, 51.8%) h s calc(l - -0.18))
+      "950": hsl(from hsl(358, 62.8%, 51.8%) h s calc(l - -0.21000000000000002))

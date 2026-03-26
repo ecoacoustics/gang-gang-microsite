@@ -1,0 +1,118 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;600&display=swap");
+
+
+
+#home-page {
+
+    .oe-header {
+        color: var(--micro-font-color);
+    }
+
+    .oe-hero {
+        background-position: center;
+    }
+
+
+    .oe-hero-title {
+        font-size: 4rem;
+        padding-top: 1em;
+        padding-bottom: 1em;
+    }
+
+    .oe-image-caption {
+        background-color: rgba(0, 0, 0, 0.7);
+        text-shadow: black 0.1em 0.1em 0.2em;
+    }
+
+    .oe-call-to-action {
+        padding-top: 1em;
+        padding-bottom: 1em;
+    }
+
+    .oe-image-column {
+
+
+    }
+
+    .card__body {
+        background-color: rgba(0, 0, 0, 0.7);
+        border: none;
+        box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.8);
+
+        h3 {
+            font-size: var(--micro-font-size-medium);
+        }
+
+    }
+
+    .sponsors-section {
+        background-color: #fff;
+        color: #517b79;
+        padding: var(--micro-padding-large);
+        border-radius: var(--micro-border-radius);
+
+        a {
+            color: #517b79;
+        }
+
+
+    }
+
+}
+
+:root {
+
+
+    --micro-body-font: "Manrope", sans-serif;
+    --micro-heading-font: "Manrope", sans-serif;
+    /* Fonts */
+    /* --micro-heading-font: "puffin", sans-serif;
+    --micro-body-font: "tablet-gothic", sans-serif; */
+    --micro-font-color: #fff;
+    --micro-font-color-light: #fff;
+    --micro-font-color-toned: #B6ADA5;
+    --micro-inverse-color: #000;
+    --micro-heading-color: var(--micro-theme-color); 
+
+    --micro-nav-background-color: var(--micro-background-light-2);
+    /*--micro-nav-font-color: var(--micro-font-color);
+
+    --micro-footer-background-color: #0b2230;
+    --micro-footer-font-color: #fff; */
+
+    --micro-background-dark: #98b6b5;
+    --micro-background-light: #517b79;
+    --micro-background-light-2: #2a4543;
+
+    --micro-panel-color: rgba(0, 0, 0, 0.5);
+
+    /* Shoelace primary button ramp (used by variant="primary") */
+    --sl-color-primary-500: hsl(358deg 63% 58%);
+    --sl-color-primary-600: hsl(358deg 63% 52%);
+    --sl-color-primary-700: hsl(358deg 63% 45%);
+    --sl-color-primary-contrast: #fff;
+
+    /* Shoelace surfaces (used by sl-card on login and elsewhere) */
+    --sl-panel-background-color: var(--micro-background-light-2);
+    --sl-panel-border-color: color-mix(in srgb, var(--micro-background-light), #fff 18%);
+}
+
+/* Login button in the nav is variant="default" in the theme, so style it to
+   match the primary CTA appearance. */
+#unauthed-menu::part(base) {
+    color: #fff;
+    background-color: var(--sl-color-primary-600);
+    border-color: var(--sl-color-primary-600);
+}
+
+#unauthed-menu:hover::part(base) {
+    background-color: var(--sl-color-primary-500);
+    border-color: var(--sl-color-primary-500);
+    color: #fff;
+}
+
+#unauthed-menu:active::part(base) {
+    background-color: var(--sl-color-primary-700);
+    border-color: var(--sl-color-primary-700);
+    color: #fff;
+}
