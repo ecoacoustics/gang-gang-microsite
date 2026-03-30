@@ -5,6 +5,8 @@ markup:
   goldmark:
     renderer:
       unsafe: true
+server:
+  _merge: deep
 services:
   # https://gohugo.io/templates/embedded/#configuration-google-analytics
   # googleAnalytics:
@@ -15,9 +17,9 @@ menus:
   #     pageRef: https://ecosounds.org/about/credits
   #     weight: 10
 params:
-  apiHost: https://api.ecosounds.org
-  workbenchHost: https://www.ecosounds.org
-  heroImage: images/ganggang-hero.jpg
+  api_host: https://api.ecosounds.org
+  workbench_host: https://www.ecosounds.org
+  hero_image: images/ganggang-hero.jpg
   campaigns:
     - name: "Gang-Gang"
       filters:
