@@ -5,28 +5,43 @@ date = 2026-03-25T08:00:00-07:00
 
 {{< section/hero
 caption="Image: Mark Norman, CC BY-SA 4.0, via Museums Victoria"
-title="Help us find where are the Gang‑gang Cockatoos">}}
+title="Help us find the Gang‑gang Cockatoos">}}
 {{< /section/hero >}}
 
+{{< section  >}}
+
+    <p>Endemic to south-eastern Australia, Gang-gang cockatoos (Callocephalon fimbriatum) are an iconic and recognisable bird. With their characteristic “squeaky door” call, it’s hard not to notice when they are around.
+    </p>
+
+{{< /section >}}
+
 {{< section class="oe-call-to-action" >}}
+<div class="main">
+    <p>
+        But over the last 35 years, nearly 70% of the population has been lost. The Black Summer fires in 2019-2020 impacted populations further, with nearly 30% of their habitat burnt and a further 10% decline in their population size. </p>
 
-<p>Endemic to south-eastern Australia, Gang-gang cockatoos (Callocephalon fimbriatum) are an iconic and recognisable bird. With their characteristic “squeaky door” call, it’s hard not to notice when they are around.
-</p><p>
-But over the last 35 years, nearly 70% of the population has been lost. The Black Summer fires in 2019-2020 impacted populations further, with nearly 30% of their habitat burnt and a further 10% decline in their population size. 
-</p><p>Continued threats to their survival include nest hollow competition, nest predation, habitat loss and degradation, and continued unpredictable bushfires.
+    {{< section/project-progress >}}
+    {{< /section/project-progress >}}
+</div>
+{{< /section >}}
+
+{{< section  >}}
+
+<p>Continued threats to their survival include nest hollow competition, nest predation, habitat loss and degradation, and continued unpredictable bushfires.
 </p>
-
 <p>In partnership with The University of Melbourne and the Victorian Department of Energy, Environment and Climate Action through the Bushfire and Natural Hazards Cooperative Research Centre, Museums Victoria has collected acoustic data across much of the Victorian range of Gang-gang cockatoos to look at the relationship between the presence of Gang-gang cockatoos and bushfire. </p>
 
 {{< /section >}}
 
 
+{{< section class="dark-bg">}}
 
 {{< section/image-column
 image="images/ganggang-731979-small.jpg"
 alt="Gang-gang Cockatoo on a roof"
 caption="Image: Mark Norman, © Museums Victoria / CC BY 4.0"
-imagePosition="left" >}}
+imagePosition="left"
+>}}
 
 <div>
     <div>
@@ -37,18 +52,16 @@ imagePosition="left" >}}
     </div>
 </div>
 
-{{< section/project-progress >}}
-{{< /section/project-progress >}}
 
 {{< /section/image-column >}}
 
 
 
+{{</ section >}}
 
 
 
-
-{{< section class="section" >}}
+{{< section class="section meet-the-team" >}}
 
 <h2 id="meet-the-team">Meet the Team</h2>
 
@@ -59,8 +72,6 @@ imagePosition="left" >}}
 ### Dr. Karen Rowe
 
 Karen is the Senior Curator of Birds at Museums Victoria. Her research focuses on developing acoustic survey and monitoring methods to better understand the distributional dynamics of birds over space and time.
-
-<sl-button variant="primary" href="https://roweconsacoustics.weebly.com/" pill>Conservation Acoustics</sl-button>
 
 {{< /card >}}
 
@@ -95,4 +106,4 @@ Liam Meredith is an Ornithologist at Museums Victoria. His research interests fo
 
 
 
-{{< sponsors class="fullbleed sponsors-section" />}}
+{{< sponsors class="fullbleed sponsors-section" dark="true" />}}
