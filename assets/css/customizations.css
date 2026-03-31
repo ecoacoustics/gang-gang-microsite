@@ -1,8 +1,17 @@
-@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;600&display=swap");
 
-
+body {
+    font-weight: 200;
+}
 
 #home-page {
+
+    font-size: 1.5rem;
+
+    p {
+        margin-top: 1.5em;
+        margin-bottom: 1.5em;
+    }
 
     .oe-header {
         color: var(--micro-font-color);
@@ -12,6 +21,12 @@
         background-position: center;
     }
 
+    .dark-bg {
+        background-color: var(--micro-background-light-2);
+    }
+    .light-bg {
+        background-color: var(--micro-background-dark);
+    }
 
     .oe-hero-title {
         font-size: 4rem;
@@ -27,41 +42,121 @@
     .oe-call-to-action {
         padding-top: 1em;
         padding-bottom: 1em;
+        font-size: 1.5rem;
+        background-color: var(--micro-background-light-3);
+        box-shadow:
+            inset 0  8px 6px -6px rgba(0, 0, 0, 0.1),
+            inset 0 -8px 6px -6px rgba(0, 0, 0, 0.1);
+        .main {
+            display: flex;
+            align-items: stretch;
+            justify-content: space-between;
+            gap: var(--micro-padding-large);
+            margin-top: 1.5em;
+            margin-bottom: 1.5em;
+            p {
+               font-size: 1.5em;
+               flex: 1 1 0;
+               margin-top: 0;
+            }
+
+        }
+
+        .project-progress-widget {
+            flex: 0 0 42%;
+            max-width: 36rem;
+            color: var(--micro-font-color-dark);
+
+            .progress-card {
+                height: 100%;
+            }
+        }
+
+        p {
+
+            line-height: 1.8;
+            margin-top: 1em;
+        }
+
+
+    }
+
+
+
+    @media (max-width: 64em) {
+        .oe-call-to-action .main {
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+        }
+
+        .oe-call-to-action .project-progress-widget {
+            width: 100%;
+            flex: 1 1 auto;
+            margin-left: auto;
+            margin-right: auto;
+            text-align: center;
+        }
+
+        .oe-call-to-action .main p {
+            margin-left: auto;
+            margin-right: auto;
+        }
     }
 
     .oe-image-column {
+        align-items: stretch;
+        font-size: var(--micro-font-size-medium);
+    }
+    
+    @media (min-width: 48em) {
+        .oe-image-column {
+            align-items: stretch;
+        }
 
+        .oe-image-column > figure {
 
+            height: auto;
+            align-self: stretch;
+
+            img {
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+                object-position: 34% center;
+            }
+        }
+
+        .oe-image-column > div {
+            flex: 1 1 0;
+        }
     }
 
-    .card__body {
-        background-color: rgba(0, 0, 0, 0.7);
-        border: none;
-        box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.8);
+    .meet-the-team {
+        margin-top: 1.5em;
 
-        h3 {
-            font-size: var(--micro-font-size-medium);
+        font-size: 1.1rem;
+
+        .card__body {
+            background-color: rgba(0, 0, 0, 0.7);
+            border: none;
+            box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.8);
+
+            h3 {
+                font-size: var(--micro-font-size-medium);
+            }
+
         }
 
     }
 
-    .sponsors-section {
-        background-color: #fff;
-        color: #517b79;
-        padding: var(--micro-padding-large);
-        border-radius: var(--micro-border-radius);
-
-        a {
-            color: #517b79;
-        }
-
-
+    .sponsors-section.sponsors-dark {
+        background-color: var(--micro-background-light-2);
     }
 
 }
 
 :root {
-
 
     --micro-body-font: "Manrope", sans-serif;
     --micro-heading-font: "Manrope", sans-serif;
@@ -83,6 +178,7 @@
     --micro-background-dark: #98b6b5;
     --micro-background-light: #517b79;
     --micro-background-light-2: #2a4543;
+    --micro-background-light-3: #446967;
 
     --micro-panel-color: rgba(0, 0, 0, 0.5);
 

@@ -12,10 +12,10 @@ services:
   # googleAnalytics:
   #   id: G-MEASUREMENT_ID
 menus:
-  # main:
-  #   - name: Credits
-  #     pageRef: https://ecosounds.org/about/credits
-  #     weight: 10
+  main:
+    - name: About
+      url: https://roweconsacoustics.weebly.com/
+      weight: 10
 params:
   api_host: https://api.ecosounds.org
   workbench_host: https://www.ecosounds.org
