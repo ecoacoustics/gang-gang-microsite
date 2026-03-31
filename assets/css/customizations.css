@@ -106,11 +106,9 @@ body {
 
     .oe-image-column {
         align-items: stretch;
-    }
-
-    .oe-image-column {
         font-size: var(--micro-font-size-medium);
     }
+    
     @media (min-width: 48em) {
         .oe-image-column {
             align-items: stretch;

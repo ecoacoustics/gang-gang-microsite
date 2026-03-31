@@ -57,7 +57,7 @@ imagePosition="left"
 
 
 
-{{</ section >}}
+{{< /section >}}
 
 
 

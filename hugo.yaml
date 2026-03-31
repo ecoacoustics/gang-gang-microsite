@@ -14,7 +14,7 @@ services:
 menus:
   main:
     - name: About
-      pageRef: https://roweconsacoustics.weebly.com/
+      url: https://roweconsacoustics.weebly.com/
       weight: 10
 params:
   api_host: https://api.ecosounds.org
