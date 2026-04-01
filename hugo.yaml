@@ -33,6 +33,12 @@ params:
   tasks:
     verification: true # default: true
 
+  sponsors:
+    logos:
+      - image: "images/MuseumsVictoria_logo.svg"
+        alt: "Museums Victoria logo"
+        url: "https://museumsvictoria.com.au/"
+
 
   style:
     roundedButtons: true
