@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@100;200;300;400;600&display=swap");
 
 body {
     font-weight: 200;
@@ -28,11 +28,36 @@ body {
         background-color: var(--micro-background-dark);
     }
 
+    .hero-content {
+        flex-direction: row-reverse;
+    }
+
     .oe-hero-title {
+        font-weight: 100;
+        font-size: 2.2rem;
+        padding-top: 1em;
+        padding-bottom: 1em;
+
+        strong {
+            font-weight: 300;
+        }
+
+        strong:first-of-type {
+            font-size: 2.8rem;
+        }
+
+        strong:nth-of-type(2) {
+            font-size: 4rem;
+        }
+    }
+
+    /* .main_heading {
+        color: white;
+        text-shadow: 4px 2px 3px black;
         font-size: 4rem;
         padding-top: 1em;
         padding-bottom: 1em;
-    }
+    } */
 
     .oe-image-caption {
         background-color: rgba(0, 0, 0, 0.7);
