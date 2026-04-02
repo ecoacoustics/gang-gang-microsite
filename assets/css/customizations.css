@@ -28,8 +28,21 @@ body {
         background-color: var(--micro-background-dark);
     }
 
-    .hero-content {
-        flex-direction: row-reverse;
+    .oe-hero .hero-content-container .hero-content {
+
+        margin-left: 5%;
+
+        h1 {
+            flex-grow: 0;
+            flex-shrink: 1;
+            flex-basis: 30%
+        }
+   
+
+        .slotted-hero-content {
+            display: None;
+        }
+
     }
 
     .oe-hero-title {
@@ -43,11 +56,17 @@ body {
         }
 
         strong:first-of-type {
-            font-size: 2.8rem;
+            font-size: 1.27em;
         }
 
         strong:nth-of-type(2) {
-            font-size: 4rem;
+            font-size: 1.82em;
+        }
+    }
+
+    @media (max-width: 680px) {
+        .oe-hero-title {
+            font-size: 0.8em;
         }
     }
 
