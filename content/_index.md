@@ -4,13 +4,15 @@ date = 2026-03-25T08:00:00-07:00
 +++
 
 {{< section/hero
-caption="Image: Mark Norman, CC BY-SA 4.0, via Museums Victoria"
-title="Help us find the Gang‑gang Cockatoos">}}
+title="<span>Help&nbsp;</span><strong>Museums&nbsp;Victoria&nbsp;</strong><span>find&nbsp;the</span><br><strong>Gang‑gang Cockatoos</strong>"
+caption="Image: Mark Norman, CC BY-SA 4.0, via Museums Victoria">}}
+
+
 {{< /section/hero >}}
 
 {{< section  >}}
 
-    <p>Endemic to south-eastern Australia, Gang-gang cockatoos (Callocephalon fimbriatum) are an iconic and recognisable bird. With their characteristic “squeaky door” call, it’s hard not to notice when they are around.
+    <p>Endemic to south-eastern Australia, Gang-gang cockatoos (<em>Callocephalon fimbriatum</em>) are an iconic and recognisable bird. With their characteristic “squeaky door” call, it’s hard not to notice when they are around.
     </p>
 
 {{< /section >}}
@@ -18,7 +20,7 @@ title="Help us find the Gang‑gang Cockatoos">}}
 {{< section class="oe-call-to-action" >}}
 <div class="main">
     <p>
-        But over the last 35 years, nearly 70% of the population has been lost. The Black Summer fires in 2019-2020 impacted populations further, with nearly 30% of their habitat burnt and a further 10% decline in their population size. </p>
+        Over the last 35 years, nearly 70% of the population has been lost. The Black Summer fires in 2019-2020 impacted populations further, with nearly 30% of their habitat burnt and a further 10% decline in their population size. </p>
 
     {{< section/project-progress >}}
     {{< /section/project-progress >}}
@@ -55,10 +57,7 @@ imagePosition="left"
 
 {{< /section/image-column >}}
 
-
-
 {{< /section >}}
-
 
 
 {{< section class="section meet-the-team" >}}
@@ -91,18 +90,12 @@ Dr. Marina D. A. Scarpelli is a post-doctoral Fellow at the Museums Victoria. He
 
 Liam Meredith is an Ornithologist at Museums Victoria. His research interests focus on the interactions between fire, vegetation and bird community patterns. He is currently undertaking an Honours research project at the University of Melbourne exploring these patterns in the Grampians/ Gariwerd National Park in western Victoria.
 
-
 {{< /card >}}
-
 
 
 {{< /section/cards >}}
 
 {{< /section >}}
-
-
-
-
 
 
 

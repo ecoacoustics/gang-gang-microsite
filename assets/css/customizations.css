@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@100;200;300;400;600&display=swap");
 
 body {
     font-weight: 200;
@@ -28,14 +28,78 @@ body {
         background-color: var(--micro-background-dark);
     }
 
+    .oe-hero .hero-content-container .hero-content {
+
+        margin-left: 5%;
+
+        h1 {
+            flex-grow: 1;
+            flex-shrink: 1;
+            flex-basis: 60%
+        }
+   
+        .slotted-hero-content {
+            display: None;
+        }
+
+    }
+
     .oe-hero-title {
-        font-size: 4rem;
+        font-weight: 100;
+        font-size: 2.2rem;
         padding-top: 1em;
         padding-bottom: 1em;
+
+        strong {
+            font-weight: 300;
+        }
+
+        span:first-of-type {
+            padding-right: 0.2em;
+        }
+
+        strong:first-of-type {
+            font-weight: 600;
+            padding-right: 0.2em;
+        }
+
+        strong:nth-of-type(2) {
+            font-size: 1.82em;
+        }
+    }
+
+    @media (max-width: 1080px) {
+        .oe-hero-title {
+            font-size: 1.8rem;
+        }
+    }
+
+    @media (max-width: 950px) {
+        .oe-hero-title {
+            font-size: 1.4rem;
+        }
+    }
+
+    @media (max-width: 850px) {
+        .oe-hero-title {
+            padding-top: 2em;
+            font-size: 0.8em;
+            padding-bottom: 2em;
+        }
+        span:first-of-type {
+            display: block;
+        } 
+        strong:nth-of-type(1) {
+            margin-top: 0px;
+            display: block;
+        }
+        .oe-hero-caption {
+            font-size: 0.4em;
+        }
     }
 
     .oe-image-caption {
-        background-color: rgba(0, 0, 0, 0.7);
+        background-color: rgba(0, 0, 0, 0.5);
         text-shadow: black 0.1em 0.1em 0.2em;
     }
 
@@ -78,10 +142,7 @@ body {
             margin-top: 1em;
         }
 
-
     }
-
-
 
     @media (max-width: 64em) {
         .oe-call-to-action .main {
@@ -147,7 +208,6 @@ body {
             }
 
         }
-
     }
 
     .sponsors-section.sponsors-dark {
