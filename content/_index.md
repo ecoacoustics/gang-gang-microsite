@@ -4,7 +4,7 @@ date = 2026-03-25T08:00:00-07:00
 +++
 
 {{< section/hero
-title="<span>Help</span><br><strong>Museums&nbsp;Victoria</strong> <span>find&nbsp;the</span><br><strong>Gang‑gang Cockatoos</strong>"
+title="<span>Help&nbsp;</span><strong>Museums&nbsp;Victoria&nbsp;</strong><span>find&nbsp;the</span><br><strong>Gang‑gang Cockatoos</strong>"
 caption="Image: Mark Norman, CC BY-SA 4.0, via Museums Victoria">}}
 
 
