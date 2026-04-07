@@ -57,10 +57,7 @@ imagePosition="left"
 
 {{< /section/image-column >}}
 
-
-
 {{< /section >}}
-
 
 
 {{< section class="section meet-the-team" >}}
@@ -93,18 +90,12 @@ Dr. Marina D. A. Scarpelli is a post-doctoral Fellow at the Museums Victoria. He
 
 Liam Meredith is an Ornithologist at Museums Victoria. His research interests focus on the interactions between fire, vegetation and bird community patterns. He is currently undertaking an Honours research project at the University of Melbourne exploring these patterns in the Grampians/ Gariwerd National Park in western Victoria.
 
-
 {{< /card >}}
-
 
 
 {{< /section/cards >}}
 
 {{< /section >}}
-
-
-
-
 
 
 
