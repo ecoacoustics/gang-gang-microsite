@@ -272,3 +272,7 @@ body {
     border-color: var(--sl-color-primary-700);
     color: #fff;
 }
+
+#verify-page oe-verification-grid {
+    padding-top: 20px;
+}

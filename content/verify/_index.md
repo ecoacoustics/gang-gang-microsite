@@ -29,29 +29,3 @@ title = "Can you hear a Gang-gang Cockatoo?"
     ></oe-data-source>
 </oe-verification-grid>
 
-<div class="examples-container">
-    <h3>Example Calls</h3>
-    <div class="example-calls">
-        {{< event-card audioRecordingId="352803" audioEventId="269965" label="Gang-gang Cockatoo (female)" >}}
-        {{< /event-card >}}
-        {{< event-card audioRecordingId="352803" audioEventId="269937" label="Gang-gang Cockatoo (male)" >}}
-        {{< /event-card >}}
-    </div>
-</div>
-
-<style>
-.examples-container {
-    margin-block: var(--micro-padding-large);
-}
-
-.example-calls {
-    display: flex;
-    gap: var(--micro-padding-medium);
-    flex-wrap: wrap;
-
-    > * {
-        flex: 1 1;
-        min-width: 20rem;
-    }
-}
-</style>
