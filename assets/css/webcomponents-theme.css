@@ -16,7 +16,7 @@
         is merged
         https://github.com/ecoacoustics/web-components/pull/376
     */
-    --oe-panel-color: var(--micro-background-light-2) !important;
+
     --oe-panel-color: rgba(0, 0, 0, 0.5) !important;
     --oe-box-shadow: 0px 0px 0px 0px transparent !important;
 
