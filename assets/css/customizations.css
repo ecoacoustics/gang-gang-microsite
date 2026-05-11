@@ -165,6 +165,10 @@ body {
         }
     }
 
+    .research-objectives figure {
+        margin-right: 0.5em;
+    }
+
     .oe-image-column {
         align-items: stretch;
         font-size: var(--micro-font-size-medium);

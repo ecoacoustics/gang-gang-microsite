@@ -36,7 +36,7 @@ caption="Image: Mark Norman, CC BY-SA 4.0, via Museums Victoria">}}
 {{< /section >}}
 
 
-{{< section class="dark-bg">}}
+{{< section class="dark-bg research-objectives">}}
 
 {{< section/image-column
 image="images/ganggang-731979-small.jpg"
@@ -63,9 +63,9 @@ imagePosition="left"
 <div class="examples-container">
     <h3>Example Calls</h3>
     <div class="example-calls">
-        {{< event-card audioRecordingId="352803" audioEventId="269965" label="Gang-gang Cockatoo (female)" >}}
+        {{< event-card audioRecordingId="5590804" audioEventId="14049744" label="Gang-gang Cockatoo" >}}
         {{< /event-card >}}
-        {{< event-card audioRecordingId="352803" audioEventId="269937" label="Gang-gang Cockatoo (male)" >}}
+        {{< event-card audioRecordingId="5571579" audioEventId="14049727" label="Gang-gang Cockatoo" >}}
         {{< /event-card >}}
     </div>
 </div>
