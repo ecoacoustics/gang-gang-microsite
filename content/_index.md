@@ -65,7 +65,7 @@ imagePosition="left"
     <div class="example-calls">
         {{< event-card audioRecordingId="5590804" audioEventId="14049744" label="Gang-gang Cockatoo" >}}
         {{< /event-card >}}
-        {{< event-card audioRecordingId="5571579" audioEventId="14049727" label="Gang-gang Cockatoo??" >}}
+        {{< event-card audioRecordingId="5571579" audioEventId="14049727" label="Gang-gang Cockatoo" >}}
         {{< /event-card >}}
     </div>
 </div>
